@@ -1,7 +1,20 @@
+import java.util.Scanner;
+
 public class Lesson1 {
     public static void main(String[] args) {
-       int a = 2;
-        }
+        System.out.println("введите первое число");
+        int a = new Scanner(System.in).nextInt();
+        System.out.println("введите второе число");
+        int b = new Scanner(System.in).nextInt();
+        System.out.println("введите третье число");
+        int c = new Scanner(System.in).nextInt();
+
+
+        System.out.print(a);
+        System.out.print(b);
+        System.out.print(c);
+
     }
+}
 
 
